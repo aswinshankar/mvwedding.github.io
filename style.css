@@ -1,4 +1,4 @@
-.fixed-top {
-    background-color: #fff;
-    transition: background-color 200ms linear;
+
+#title{
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.8));
 }
