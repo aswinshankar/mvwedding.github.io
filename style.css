@@ -1,8 +1,14 @@
+body{
+    background-image: url("blur.jpeg");
+    width: 100%;
+}
 .img-area .stry
 {
     position: relative;
     width: 100%;
     height: 100%;
+    padding: 0% 10%;
+    padding-top: 7.5%;
 }
 .img-area .stri{
     position: absolute;
