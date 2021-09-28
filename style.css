@@ -1,4 +1,7 @@
-
-#title{
-    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.8));
+#title
+{
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.6)),url("j.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
 }
