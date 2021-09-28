@@ -27,41 +27,42 @@ div img.stry{
 div.stry{
     text-align: center;
     padding: 0% 10% 5% 10%;
-    background-color: #406343;
-    color: #fff;
+    background-color: #FAEEE0;
+    color: #B24080;
 }
 div.timer_1{
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url("cover.jpg");
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url("cover.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 25%;
+    padding-top: 5%;
 }
 div.timer_2{
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url("ring.jpg");
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url("ring.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 25%;
+    padding-top: 5%;
 }
 div.ftr{
     padding: 1% 2% ;
     background-color: #fff;
-    color: #406343f;
+    color: #B24080;
     font-family: 'Birthstone', cursive;
+    font-size: 2rem;
 }
 .container-fluid a{
-    color: #406343;
+    color: #B24080;
     text-decoration: none;
 }
 .container-fluid button{
-    color: #406343;
+    color: #B24080;
 }
 .ftr a{
     text-decoration: none;
-    color: #406343;
+    color: #B24080;
 }
 .timer_1{
     text-align: right;
@@ -80,10 +81,15 @@ div.ftr{
 
 .navbar{
     font-family: 'Birthstone', cursive;
+    font-size: 2rem;
 }
-#footer{
+.navbar-brand{
+    font-size: 2.5rem;
+}
+#footer h1{ 
     
     font-family: 'Birthstone', cursive;
+    font-size: 2rem;;
 }
 #title{
     font-family: 'Birthstone', cursive;
@@ -92,7 +98,7 @@ div.ftr{
     font-family: 'Birthstone', cursive;
 }
 #story h5{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 #story h1{
     font-size: 5rem;
@@ -101,7 +107,7 @@ div.ftr{
     font-family: 'Birthstone', cursive;
 }
 #timer h5{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
     pa
 }
@@ -112,7 +118,7 @@ div.ftr{
     font-family: 'Birthstone', cursive;
 }
 #timer h5{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
     
     
@@ -121,10 +127,13 @@ div.ftr{
     font-size: 5rem;
 }
 #story_2 h5{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #B24080;
 }
 #story_2 h1{
     font-size: 5rem;
     color: #B24080;
+}
+.fl{
+    color: #406343;
 }
