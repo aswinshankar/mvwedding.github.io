@@ -1,14 +1,15 @@
-.img-area img
+.img-area .stry
 {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.img-area h1{
+.img-area .stri{
     position: absolute;
-    top:45%;
-    left: 10%;
-
+    top:25%;
+    left:10%;
+    height: 50%;
+    
 }
 div.img-area{
     width: 100%;
@@ -29,12 +30,21 @@ div.stry{
     background-color: #406343;
     color: #fff;
 }
-div.timer{
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url("j.png");
+div.timer_1{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url("cover.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 25%;
+}
+div.timer_2{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url("ring.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25%;
 }
 div.ftr{
     padding: 1% 2% ;
@@ -53,11 +63,21 @@ div.ftr{
     text-decoration: none;
     color: #406343;
 }
-.timer{
-    text-align: center;
+.timer_1{
+    text-align: right;
     color: #fff;
-    
+    padding-left: 40%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
+.timer_2{
+    text-align: left;
+    color: #fff;
+    padding-right: 40%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
 .navbar{
     font-family: 'Birthstone', cursive;
 }
@@ -83,9 +103,28 @@ div.ftr{
 #timer h5{
     font-size: 1.5rem;
     margin: 0;
-    padding: 0% 10% 5% 10%;
+    pa
+}
+#timer h1{
+    font-size: 5rem;
+}
+#timer{
+    font-family: 'Birthstone', cursive;
+}
+#timer h5{
+    font-size: 1.5rem;
+    margin: 0;
+    
     
 }
 #timer h1{
     font-size: 5rem;
+}
+#story_2 h5{
+    font-size: 1.5rem;
+    color: #B24080;
+}
+#story_2 h1{
+    font-size: 5rem;
+    color: #B24080;
 }
