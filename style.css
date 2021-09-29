@@ -2,6 +2,7 @@ body{
     background-image: url("blur.jpeg");
     width: 100%;
     background-size: cover;
+    
 }
 .img-area .stry
 {
@@ -55,7 +56,7 @@ div.timer_2{
 }
 div.ftr{
     padding: 1% 2% ;
-    background-color: #fff;
+    background-color: #FAEEE0;
     color: #B24080;
     font-family: 'Birthstone', cursive;
     font-size: 2rem;
@@ -74,7 +75,7 @@ div.ftr{
 .timer_1{
     text-align: right;
     color: #fff;
-    padding-left: 40%;
+    padding-left: 50%;
     padding-right: 5%;
     padding-bottom: 5%;
 }
@@ -89,6 +90,7 @@ div.ftr{
 .navbar{
     font-family: 'Birthstone', cursive;
     font-size: 2rem;
+    background-color: #FAEEE0;
 }
 .navbar-brand{
     font-size: 2.5rem;
@@ -143,4 +145,13 @@ div.ftr{
 }
 .fl{
     color: #406343;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: #B24080;
+}
+story_2{
+    text-align: center;
 }
